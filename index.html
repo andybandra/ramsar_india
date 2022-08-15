@@ -1,0 +1,1938 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d332f392349e43948b599b5f01175490 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d332f392349e43948b599b5f01175490" ></div>
+        
+</body>
+<script>    
+    
+            var map_d332f392349e43948b599b5f01175490 = L.map(
+                "map_d332f392349e43948b599b5f01175490",
+                {
+                    center: [22.0, 77.16],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d8aacae0928544dca7bd5afc11e0005b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var marker_bd850b88ef1a422688291f107b104054 = L.marker(
+                [34.2666666666667, 74.55],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_15ce1571e48646e59e3ffca1e4710864 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bd850b88ef1a422688291f107b104054.setIcon(icon_15ce1571e48646e59e3ffca1e4710864);
+        
+    
+        var popup_bd2de22665f042bdb502d803f0016fdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_901c584af31f4eec880cfd1dbc736205 = $(`<div id="html_901c584af31f4eec880cfd1dbc736205" style="width: 100.0%; height: 100.0%;">Wular Lake, JK, 18900.0 (ha)</div>`)[0];
+            popup_bd2de22665f042bdb502d803f0016fdf.setContent(html_901c584af31f4eec880cfd1dbc736205);
+        
+
+        marker_bd850b88ef1a422688291f107b104054.bindPopup(popup_bd2de22665f042bdb502d803f0016fdf)
+        ;
+
+        
+    
+    
+            var marker_dca5f751026d42c4ae779844076a9083 = L.marker(
+                [9.83333333333333, 76.75],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_aeb59ccdfa2846e9a7a3c38c3fb99255 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_dca5f751026d42c4ae779844076a9083.setIcon(icon_aeb59ccdfa2846e9a7a3c38c3fb99255);
+        
+    
+        var popup_7841a935ad944ce78866d9685e554ac6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98d876a5985348c2af52d7a190317058 = $(`<div id="html_98d876a5985348c2af52d7a190317058" style="width: 100.0%; height: 100.0%;">Vembanad-Kol Wetland, Kerala, 151250.0 (ha)</div>`)[0];
+            popup_7841a935ad944ce78866d9685e554ac6.setContent(html_98d876a5985348c2af52d7a190317058);
+        
+
+        marker_dca5f751026d42c4ae779844076a9083.bindPopup(popup_7841a935ad944ce78866d9685e554ac6)
+        ;
+
+        
+    
+    
+            var marker_97024aa7c66944a9be3883ce1379d333 = L.marker(
+                [32.9, 78.3],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_1787f26e64524929b663b4af5b2a5aa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_97024aa7c66944a9be3883ce1379d333.setIcon(icon_1787f26e64524929b663b4af5b2a5aa3);
+        
+    
+        var popup_26a44ac5b21d407989b4e044f20e25c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_683d12f08e174322bcea11d1526ffa9c = $(`<div id="html_683d12f08e174322bcea11d1526ffa9c" style="width: 100.0%; height: 100.0%;">Tsomoriri, JK, 12000.0 (ha)</div>`)[0];
+            popup_26a44ac5b21d407989b4e044f20e25c2.setContent(html_683d12f08e174322bcea11d1526ffa9c);
+        
+
+        marker_97024aa7c66944a9be3883ce1379d333.bindPopup(popup_26a44ac5b21d407989b4e044f20e25c2)
+        ;
+
+        
+    
+    
+            var marker_35017e838d4449e5af27027d971b34e0 = L.marker(
+                [9.03333333333333, 76.6166666666667],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_59b99810f1714255b9859d0120ecdda0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_35017e838d4449e5af27027d971b34e0.setIcon(icon_59b99810f1714255b9859d0120ecdda0);
+        
+    
+        var popup_7513a777c6304f67977f87dbe1babdfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b1e21b44fb942c99586b421690805b7 = $(`<div id="html_4b1e21b44fb942c99586b421690805b7" style="width: 100.0%; height: 100.0%;">Sasthamkotta Lake, Kerala, 373.0 (ha)</div>`)[0];
+            popup_7513a777c6304f67977f87dbe1babdfb.setContent(html_4b1e21b44fb942c99586b421690805b7);
+        
+
+        marker_35017e838d4449e5af27027d971b34e0.bindPopup(popup_7513a777c6304f67977f87dbe1babdfb)
+        ;
+
+        
+    
+    
+            var marker_b47a7a93f8db4970bd4bdd9fc625243b = L.marker(
+                [27.0, 75.0],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_15ac22cb91f6419086cad10095fcd543 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b47a7a93f8db4970bd4bdd9fc625243b.setIcon(icon_15ac22cb91f6419086cad10095fcd543);
+        
+    
+        var popup_31fb373bf709485685c5616ad5a8a7f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1823b735fc174bd2958659545969c7da = $(`<div id="html_1823b735fc174bd2958659545969c7da" style="width: 100.0%; height: 100.0%;">Sambhar Lake, Rajasthan, 24000.0 (ha)</div>`)[0];
+            popup_31fb373bf709485685c5616ad5a8a7f0.setContent(html_1823b735fc174bd2958659545969c7da);
+        
+
+        marker_b47a7a93f8db4970bd4bdd9fc625243b.bindPopup(popup_31fb373bf709485685c5616ad5a8a7f0)
+        ;
+
+        
+    
+    
+            var marker_418fb562869a4304a66b6b01aab3b9a5 = L.marker(
+                [31.2166666666667, 75.2],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_2920d11c52f046c68271583ba88fbb23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_418fb562869a4304a66b6b01aab3b9a5.setIcon(icon_2920d11c52f046c68271583ba88fbb23);
+        
+    
+        var popup_82fbb8db9a5042fe9c096d1fed6cfd9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d0a896f25764794bdd67d22c724b333 = $(`<div id="html_7d0a896f25764794bdd67d22c724b333" style="width: 100.0%; height: 100.0%;">Harike Lake, Punjab, 4100.0 (ha)</div>`)[0];
+            popup_82fbb8db9a5042fe9c096d1fed6cfd9f.setContent(html_7d0a896f25764794bdd67d22c724b333);
+        
+
+        marker_418fb562869a4304a66b6b01aab3b9a5.bindPopup(popup_82fbb8db9a5042fe9c096d1fed6cfd9f)
+        ;
+
+        
+    
+    
+            var marker_79e439130e55445baa1f2981dadf7c8c = L.marker(
+                [21.7749179288938, 88.714414161689],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_b9bb1fe664a24add8479623008641add = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_79e439130e55445baa1f2981dadf7c8c.setIcon(icon_b9bb1fe664a24add8479623008641add);
+        
+    
+        var popup_e609a9b68aa447d5816f392cc83442f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba27f5179aea42f5a66784155c287153 = $(`<div id="html_ba27f5179aea42f5a66784155c287153" style="width: 100.0%; height: 100.0%;">Sundarban Wetland, WB, 423000.0 (ha)</div>`)[0];
+            popup_e609a9b68aa447d5816f392cc83442f4.setContent(html_ba27f5179aea42f5a66784155c287153);
+        
+
+        marker_79e439130e55445baa1f2981dadf7c8c.bindPopup(popup_e609a9b68aa447d5816f392cc83442f4)
+        ;
+
+        
+    
+    
+            var marker_d2806d12772f453d856b0935fff7041a = L.marker(
+                [23.2333333333333, 77.3333333333333],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_d84a7dba4bad41a1b1665aac1a25ab13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d2806d12772f453d856b0935fff7041a.setIcon(icon_d84a7dba4bad41a1b1665aac1a25ab13);
+        
+    
+        var popup_14ef48d175174f68a96ba851dcaac5ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee388bbbb095403bb7ddb37d22df87e7 = $(`<div id="html_ee388bbbb095403bb7ddb37d22df87e7" style="width: 100.0%; height: 100.0%;">Bhoj Wetland, MP, 3201.0 (ha)</div>`)[0];
+            popup_14ef48d175174f68a96ba851dcaac5ac.setContent(html_ee388bbbb095403bb7ddb37d22df87e7);
+        
+
+        marker_d2806d12772f453d856b0935fff7041a.bindPopup(popup_14ef48d175174f68a96ba851dcaac5ac)
+        ;
+
+        
+    
+    
+            var marker_85ae8c9ac4f840fda10dabccb473fe70 = L.marker(
+                [26.9360595845012, 82.1627026518549],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_82bc348e20f844fdb715772132ca3d55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_85ae8c9ac4f840fda10dabccb473fe70.setIcon(icon_82bc348e20f844fdb715772132ca3d55);
+        
+    
+        var popup_281669daca294ae6999ed15cd07bc28e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e95e9bd58fc419baec77d3c70870528 = $(`<div id="html_8e95e9bd58fc419baec77d3c70870528" style="width: 100.0%; height: 100.0%;">Parvati Arga Bird Sanctuary, UP, 722.0 (ha)</div>`)[0];
+            popup_281669daca294ae6999ed15cd07bc28e.setContent(html_8e95e9bd58fc419baec77d3c70870528);
+        
+
+        marker_85ae8c9ac4f840fda10dabccb473fe70.bindPopup(popup_281669daca294ae6999ed15cd07bc28e)
+        ;
+
+        
+    
+    
+            var marker_baa8c164802d4b91b9051fb6af113349 = L.marker(
+                [32.0166666666667, 76.0833333333333],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_9aaeebf66cee437fa0eb1e142e8d95ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_baa8c164802d4b91b9051fb6af113349.setIcon(icon_9aaeebf66cee437fa0eb1e142e8d95ba);
+        
+    
+        var popup_46dfe134d07441d5b42ccba180ea580c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d63c6969af445d29e6e0a44bfd0f28c = $(`<div id="html_4d63c6969af445d29e6e0a44bfd0f28c" style="width: 100.0%; height: 100.0%;">Pong Dam Lake, HP, 15662.0 (ha)</div>`)[0];
+            popup_46dfe134d07441d5b42ccba180ea580c.setContent(html_4d63c6969af445d29e6e0a44bfd0f28c);
+        
+
+        marker_baa8c164802d4b91b9051fb6af113349.bindPopup(popup_46dfe134d07441d5b42ccba180ea580c)
+        ;
+
+        
+    
+    
+            var marker_63ffabd39854453b9f31f9163daa8962 = L.marker(
+                [23.4833333333, 91.2666666667],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_9be97d2ff6af4e9b95561bd339fa5500 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_63ffabd39854453b9f31f9163daa8962.setIcon(icon_9be97d2ff6af4e9b95561bd339fa5500);
+        
+    
+        var popup_ab72097941844c438ccacc0e7bf5d292 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83705c8ed043447c9fc3b849c0672431 = $(`<div id="html_83705c8ed043447c9fc3b849c0672431" style="width: 100.0%; height: 100.0%;">Rudrasagar Lake, Tripura, 240.0 (ha)</div>`)[0];
+            popup_ab72097941844c438ccacc0e7bf5d292.setContent(html_83705c8ed043447c9fc3b849c0672431);
+        
+
+        marker_63ffabd39854453b9f31f9163daa8962.bindPopup(popup_ab72097941844c438ccacc0e7bf5d292)
+        ;
+
+        
+    
+    
+            var marker_fd98aeb420f04b49a52e9274666345d9 = L.marker(
+                [11.4381652523081, 79.7865861366778],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_0a35d3e74a8c4808acaee046ff6e7779 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fd98aeb420f04b49a52e9274666345d9.setIcon(icon_0a35d3e74a8c4808acaee046ff6e7779);
+        
+    
+        var popup_b847e4bca2794c5897a4e7603a34b07a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2a9512268f1476e8999ebec1fba38a7 = $(`<div id="html_a2a9512268f1476e8999ebec1fba38a7" style="width: 100.0%; height: 100.0%;">Pichavaram Mangrove , TN, 1478.642 (ha)</div>`)[0];
+            popup_b847e4bca2794c5897a4e7603a34b07a.setContent(html_a2a9512268f1476e8999ebec1fba38a7);
+        
+
+        marker_fd98aeb420f04b49a52e9274666345d9.bindPopup(popup_b847e4bca2794c5897a4e7603a34b07a)
+        ;
+
+        
+    
+    
+            var marker_4632f28aeb514ecb92cbb5287652e006 = L.marker(
+                [28.55, 78.2],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_93d7a107177f4ff686ead40084dfd448 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4632f28aeb514ecb92cbb5287652e006.setIcon(icon_93d7a107177f4ff686ead40084dfd448);
+        
+    
+        var popup_d966a07e404d44f084b02f1dbd2429b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a801bf1afd4e433dbc354c8012a25aa6 = $(`<div id="html_a801bf1afd4e433dbc354c8012a25aa6" style="width: 100.0%; height: 100.0%;">Upper Ganga River , UP, 26590.0 (ha)</div>`)[0];
+            popup_d966a07e404d44f084b02f1dbd2429b4.setContent(html_a801bf1afd4e433dbc354c8012a25aa6);
+        
+
+        marker_4632f28aeb514ecb92cbb5287652e006.bindPopup(popup_d966a07e404d44f084b02f1dbd2429b4)
+        ;
+
+        
+    
+    
+            var marker_17463fcb3edc4ec9af0ab0449ef662ae = L.marker(
+                [8.95, 76.5833333333333],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_3c70057c6fac4cbd92005b0f5043fddb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_17463fcb3edc4ec9af0ab0449ef662ae.setIcon(icon_3c70057c6fac4cbd92005b0f5043fddb);
+        
+    
+        var popup_75b207826faf419fb5cbf22ed3119e8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12481b116dfc41c9b6dc0d7185c62344 = $(`<div id="html_12481b116dfc41c9b6dc0d7185c62344" style="width: 100.0%; height: 100.0%;">Ashtamudi Wetland, Kerala, 6140.0 (ha)</div>`)[0];
+            popup_75b207826faf419fb5cbf22ed3119e8b.setContent(html_12481b116dfc41c9b6dc0d7185c62344);
+        
+
+        marker_17463fcb3edc4ec9af0ab0449ef662ae.bindPopup(popup_75b207826faf419fb5cbf22ed3119e8b)
+        ;
+
+        
+    
+    
+            var marker_656c210917174c7094b42a0af78b3c4a = L.marker(
+                [31.0166666666667, 76.5],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_014936747e934ed9bae5fafb80f4d3b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_656c210917174c7094b42a0af78b3c4a.setIcon(icon_014936747e934ed9bae5fafb80f4d3b2);
+        
+    
+        var popup_233743fca84743eab390d8e47784bf2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8485d9efba4c476cb1ac06d9ba402965 = $(`<div id="html_8485d9efba4c476cb1ac06d9ba402965" style="width: 100.0%; height: 100.0%;">Ropar, Punjab, 1365.0 (ha)</div>`)[0];
+            popup_233743fca84743eab390d8e47784bf2b.setContent(html_8485d9efba4c476cb1ac06d9ba402965);
+        
+
+        marker_656c210917174c7094b42a0af78b3c4a.bindPopup(popup_233743fca84743eab390d8e47784bf2b)
+        ;
+
+        
+    
+    
+            var marker_2f297afa3f2446ddb128888a5e05484c = L.marker(
+                [22.7758333333, 72.0391666667],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_f856232f93b04f53ba1a3ad43d36a978 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2f297afa3f2446ddb128888a5e05484c.setIcon(icon_f856232f93b04f53ba1a3ad43d36a978);
+        
+    
+        var popup_ee5a0ea4efbe4b9b807c8b51044a6b1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04644820ae204a3db37ac10eab2fd2ce = $(`<div id="html_04644820ae204a3db37ac10eab2fd2ce" style="width: 100.0%; height: 100.0%;">Nalsarovar, Gujarat, 12000.0 (ha)</div>`)[0];
+            popup_ee5a0ea4efbe4b9b807c8b51044a6b1a.setContent(html_04644820ae204a3db37ac10eab2fd2ce);
+        
+
+        marker_2f297afa3f2446ddb128888a5e05484c.bindPopup(popup_ee5a0ea4efbe4b9b807c8b51044a6b1a)
+        ;
+
+        
+    
+    
+            var marker_f6a717f5425b4be88a6ff6e04dc66b0a = L.marker(
+                [19.7, 85.35],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_24810af15ec0428d9d30cda3404c43c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f6a717f5425b4be88a6ff6e04dc66b0a.setIcon(icon_24810af15ec0428d9d30cda3404c43c5);
+        
+    
+        var popup_509b4cec900544ef91e06c7b14d29502 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_929aefab86324c43a6d506bf291d5eef = $(`<div id="html_929aefab86324c43a6d506bf291d5eef" style="width: 100.0%; height: 100.0%;">Chilika Lake, Odisha, 116500.0 (ha)</div>`)[0];
+            popup_509b4cec900544ef91e06c7b14d29502.setContent(html_929aefab86324c43a6d506bf291d5eef);
+        
+
+        marker_f6a717f5425b4be88a6ff6e04dc66b0a.bindPopup(popup_509b4cec900544ef91e06c7b14d29502)
+        ;
+
+        
+    
+    
+            var marker_3e6aced516e046c1b062309134dcce5e = L.marker(
+                [24.4333333333333, 93.8166666666667],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_99e52f7ed8fd40628afa8f2b25d796af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3e6aced516e046c1b062309134dcce5e.setIcon(icon_99e52f7ed8fd40628afa8f2b25d796af);
+        
+    
+        var popup_46a47d4758d64c54b13ad19835f09a6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_398d9eb2ce114cf0a232571d8f85befe = $(`<div id="html_398d9eb2ce114cf0a232571d8f85befe" style="width: 100.0%; height: 100.0%;">Loktak Lake, Manipur, 26600.0 (ha)</div>`)[0];
+            popup_46a47d4758d64c54b13ad19835f09a6e.setContent(html_398d9eb2ce114cf0a232571d8f85befe);
+        
+
+        marker_3e6aced516e046c1b062309134dcce5e.bindPopup(popup_46a47d4758d64c54b13ad19835f09a6e)
+        ;
+
+        
+    
+    
+            var marker_fd754a0245c2479dac6a613f889aa490 = L.marker(
+                [16.6166666666667, 81.2],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_b99c9a600abe4a6a850b7eefab80bfc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fd754a0245c2479dac6a613f889aa490.setIcon(icon_b99c9a600abe4a6a850b7eefab80bfc4);
+        
+    
+        var popup_f9d77d8be3954742b3d0ee96821dfadf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35ced2e924334db7aaa234eea3109518 = $(`<div id="html_35ced2e924334db7aaa234eea3109518" style="width: 100.0%; height: 100.0%;">Kolleru Lake, AP, 90100.0 (ha)</div>`)[0];
+            popup_f9d77d8be3954742b3d0ee96821dfadf.setContent(html_35ced2e924334db7aaa234eea3109518);
+        
+
+        marker_fd754a0245c2479dac6a613f889aa490.bindPopup(popup_f9d77d8be3954742b3d0ee96821dfadf)
+        ;
+
+        
+    
+    
+            var marker_11a362c03cf840e8a543bf0ed2a3337f = L.marker(
+                [20.65, 86.9],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_6446fa50edcc4d628f1b9eb03608bfc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_11a362c03cf840e8a543bf0ed2a3337f.setIcon(icon_6446fa50edcc4d628f1b9eb03608bfc2);
+        
+    
+        var popup_15446c6a99c741dba46577c4c49971c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1769e32a37494d0591724e1d6c9cec3b = $(`<div id="html_1769e32a37494d0591724e1d6c9cec3b" style="width: 100.0%; height: 100.0%;">Bhitarkanika Mangroves, Odisha, 65000.0 (ha)</div>`)[0];
+            popup_15446c6a99c741dba46577c4c49971c0.setContent(html_1769e32a37494d0591724e1d6c9cec3b);
+        
+
+        marker_11a362c03cf840e8a543bf0ed2a3337f.bindPopup(popup_15446c6a99c741dba46577c4c49971c0)
+        ;
+
+        
+    
+    
+            var marker_99ca7f1ac4ce4a52a692b7f196fc7371 = L.marker(
+                [23.141657560117, 72.4110872393496],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_a7e9d57c34854a50b21ade7143da2131 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_99ca7f1ac4ce4a52a692b7f196fc7371.setIcon(icon_a7e9d57c34854a50b21ade7143da2131);
+        
+    
+        var popup_1c40be4cbc9640259ed59c1ea1a42b67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18fb7c7042e648feb61544f8fa397e5b = $(`<div id="html_18fb7c7042e648feb61544f8fa397e5b" style="width: 100.0%; height: 100.0%;">Thol Lake Wildlife Sanctuary, Gujarat, 699.0 (ha)</div>`)[0];
+            popup_1c40be4cbc9640259ed59c1ea1a42b67.setContent(html_18fb7c7042e648feb61544f8fa397e5b);
+        
+
+        marker_99ca7f1ac4ce4a52a692b7f196fc7371.bindPopup(popup_1c40be4cbc9640259ed59c1ea1a42b67)
+        ;
+
+        
+    
+    
+            var marker_e9784ca54ce1410e87c75c6b8fbda106 = L.marker(
+                [22.5144688657244, 70.1458920336754],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_f2e81f07f0494ce4b722437e175fcd83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e9784ca54ce1410e87c75c6b8fbda106.setIcon(icon_f2e81f07f0494ce4b722437e175fcd83);
+        
+    
+        var popup_ead0bc3014884ad09dab85ca87ebc1cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c39b5eea3a5e4b18802741e51d3008da = $(`<div id="html_c39b5eea3a5e4b18802741e51d3008da" style="width: 100.0%; height: 100.0%;">Khijadia Wildlife Sanctuary, Gujarat, 511.745 (ha)</div>`)[0];
+            popup_ead0bc3014884ad09dab85ca87ebc1cc.setContent(html_c39b5eea3a5e4b18802741e51d3008da);
+        
+
+        marker_e9784ca54ce1410e87c75c6b8fbda106.bindPopup(popup_ead0bc3014884ad09dab85ca87ebc1cc)
+        ;
+
+        
+    
+    
+            var marker_8485a7971da949dc96200cf2c9307f4d = L.marker(
+                [8.49569008662548, 77.7539757001593],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_8abe2a83d3af46b78edf2279add61efd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8485a7971da949dc96200cf2c9307f4d.setIcon(icon_8abe2a83d3af46b78edf2279add61efd);
+        
+    
+        var popup_880e5142aa5b4f349b80ee134285504d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00a97bc89dd14bc89974d628bd52ad9f = $(`<div id="html_00a97bc89dd14bc89974d628bd52ad9f" style="width: 100.0%; height: 100.0%;">Koonthankulam Bird Sanctuary , TN, 72.04 (ha)</div>`)[0];
+            popup_880e5142aa5b4f349b80ee134285504d.setContent(html_00a97bc89dd14bc89974d628bd52ad9f);
+        
+
+        marker_8485a7971da949dc96200cf2c9307f4d.bindPopup(popup_880e5142aa5b4f349b80ee134285504d)
+        ;
+
+        
+    
+    
+            var marker_c9f2a17079cc4535a2d0fb99621268c9 = L.marker(
+                [25.9955790650893, 81.3888763385791],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_0274dbc282164ee3919f33d0809d8e3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c9f2a17079cc4535a2d0fb99621268c9.setIcon(icon_0274dbc282164ee3919f33d0809d8e3f);
+        
+    
+        var popup_0582df32d80340219bb5bd32eb262e78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_646614f55d12471d9bda6be7ebe8e57e = $(`<div id="html_646614f55d12471d9bda6be7ebe8e57e" style="width: 100.0%; height: 100.0%;">Samaspur Bird Sanctuary, UP, 799.371 (ha)</div>`)[0];
+            popup_0582df32d80340219bb5bd32eb262e78.setContent(html_646614f55d12471d9bda6be7ebe8e57e);
+        
+
+        marker_c9f2a17079cc4535a2d0fb99621268c9.bindPopup(popup_0582df32d80340219bb5bd32eb262e78)
+        ;
+
+        
+    
+    
+            var marker_4bdd910462df4c1d81505ce7e5d2e949 = L.marker(
+                [27.3138799541129, 79.9722050949983],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_aeb9001802954e12b162b10d0e4df047 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4bdd910462df4c1d81505ce7e5d2e949.setIcon(icon_aeb9001802954e12b162b10d0e4df047);
+        
+    
+        var popup_003745716e7b472a8a0c283a930ba511 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91e53235af88457599988de885e09f08 = $(`<div id="html_91e53235af88457599988de885e09f08" style="width: 100.0%; height: 100.0%;">Sandi Bird Sanctuary, UP, 308.54 (ha)</div>`)[0];
+            popup_003745716e7b472a8a0c283a930ba511.setContent(html_91e53235af88457599988de885e09f08);
+        
+
+        marker_4bdd910462df4c1d81505ce7e5d2e949.bindPopup(popup_003745716e7b472a8a0c283a930ba511)
+        ;
+
+        
+    
+    
+            var marker_62a7b3acb7b84dbdaa73236f9afebd16 = L.marker(
+                [31.396275298627, 76.3712963498703],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_04b1082998f94080a5eb39bd48281177 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_62a7b3acb7b84dbdaa73236f9afebd16.setIcon(icon_04b1082998f94080a5eb39bd48281177);
+        
+    
+        var popup_6358603e92214cac88e61787b03ac64f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_751347ac68c443c29eb09edebfb34e5b = $(`<div id="html_751347ac68c443c29eb09edebfb34e5b" style="width: 100.0%; height: 100.0%;">Nangal Wildlife Sanctuary, Punjab, 116.0 (ha)</div>`)[0];
+            popup_6358603e92214cac88e61787b03ac64f.setContent(html_751347ac68c443c29eb09edebfb34e5b);
+        
+
+        marker_62a7b3acb7b84dbdaa73236f9afebd16.bindPopup(popup_6358603e92214cac88e61787b03ac64f)
+        ;
+
+        
+    
+    
+            var marker_31b76d5f69a64c28b4e26ccfc86310f7 = L.marker(
+                [26.6137485636928, 80.6549528511295],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_2a8b9db3e5274c4dba96904fb9622f53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_31b76d5f69a64c28b4e26ccfc86310f7.setIcon(icon_2a8b9db3e5274c4dba96904fb9622f53);
+        
+    
+        var popup_e468aa718cc14c68a23256470b679c1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0fecfd167874c74b344196f0ad502fd = $(`<div id="html_c0fecfd167874c74b344196f0ad502fd" style="width: 100.0%; height: 100.0%;">Nawabganj Bird Sanctuary, UP, 224.6 (ha)</div>`)[0];
+            popup_e468aa718cc14c68a23256470b679c1e.setContent(html_c0fecfd167874c74b344196f0ad502fd);
+        
+
+        marker_31b76d5f69a64c28b4e26ccfc86310f7.bindPopup(popup_e468aa718cc14c68a23256470b679c1e)
+        ;
+
+        
+    
+    
+            var marker_9b73ef8da1604acb8af4308d2520f697 = L.marker(
+                [28.5338075088437, 76.5503542384462],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_1a0e9128e1af453b84482af3f22ab6a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9b73ef8da1604acb8af4308d2520f697.setIcon(icon_1a0e9128e1af453b84482af3f22ab6a9);
+        
+    
+        var popup_22bd27a67b61446a83cc01defc767baa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f00e24e25d5b42eeac4549b978367629 = $(`<div id="html_f00e24e25d5b42eeac4549b978367629" style="width: 100.0%; height: 100.0%;">Bhindawas Wildlife Sanctuary, Haryana, 412.0 (ha)</div>`)[0];
+            popup_22bd27a67b61446a83cc01defc767baa.setContent(html_f00e24e25d5b42eeac4549b978367629);
+        
+
+        marker_9b73ef8da1604acb8af4308d2520f697.bindPopup(popup_22bd27a67b61446a83cc01defc767baa)
+        ;
+
+        
+    
+    
+            var marker_ac8f58c10c994dd8bb6d0c2ca440f548 = L.marker(
+                [9.11587915099731, 78.786914871012],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_9777fa0e18de43248c1dc0d587e69710 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ac8f58c10c994dd8bb6d0c2ca440f548.setIcon(icon_9777fa0e18de43248c1dc0d587e69710);
+        
+    
+        var popup_dda761803578439da07c6ee9867e5f1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fafb6c6be9ab42dc929c185da9ca18f8 = $(`<div id="html_fafb6c6be9ab42dc929c185da9ca18f8" style="width: 100.0%; height: 100.0%;">Gulf of Mannar Marine Biosphere Reserve, TN, 52671.876 (ha)</div>`)[0];
+            popup_dda761803578439da07c6ee9867e5f1d.setContent(html_fafb6c6be9ab42dc929c185da9ca18f8);
+        
+
+        marker_ac8f58c10c994dd8bb6d0c2ca440f548.bindPopup(popup_dda761803578439da07c6ee9867e5f1d)
+        ;
+
+        
+    
+    
+            var marker_8405ce377a344c36a54447a0b51c4652 = L.marker(
+                [31.3948394144618, 75.1946899535063],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_858e8b5047054d7ab05fd9fa88c6e2e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8405ce377a344c36a54447a0b51c4652.setIcon(icon_858e8b5047054d7ab05fd9fa88c6e2e5);
+        
+    
+        var popup_9d25cf2727c44af79d07f499862e8f1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ba8825ba5bc4cb593560357f60d8b68 = $(`<div id="html_1ba8825ba5bc4cb593560357f60d8b68" style="width: 100.0%; height: 100.0%;">Beas Conservation Reserve, Punjab, 6428.92 (ha)</div>`)[0];
+            popup_9d25cf2727c44af79d07f499862e8f1a.setContent(html_1ba8825ba5bc4cb593560357f60d8b68);
+        
+
+        marker_8405ce377a344c36a54447a0b51c4652.bindPopup(popup_9d25cf2727c44af79d07f499862e8f1a)
+        ;
+
+        
+    
+    
+            var marker_e65ab9911f9a44088689ea8d454296e6 = L.marker(
+                [33.2981903937023, 78.0118888164226],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_8560867ccb27471088a00f1cdeceb0b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e65ab9911f9a44088689ea8d454296e6.setIcon(icon_8560867ccb27471088a00f1cdeceb0b8);
+        
+    
+        var popup_c67131b5a9cd4f6c9ccf2cf7659a078c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8b761f8d5e646119eff79dc695d70dc = $(`<div id="html_c8b761f8d5e646119eff79dc695d70dc" style="width: 100.0%; height: 100.0%;">Tso Kar Wetland Complex, Ladakh, 9577.0 (ha)</div>`)[0];
+            popup_c67131b5a9cd4f6c9ccf2cf7659a078c.setContent(html_c8b761f8d5e646119eff79dc695d70dc);
+        
+
+        marker_e65ab9911f9a44088689ea8d454296e6.bindPopup(popup_c67131b5a9cd4f6c9ccf2cf7659a078c)
+        ;
+
+        
+    
+    
+            var marker_8c3d80f4d4734159a18b4dab3504809b = L.marker(
+                [20.572409948954, 84.8323480031092],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_ef163cf7b9a74e6094141734154040ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8c3d80f4d4734159a18b4dab3504809b.setIcon(icon_ef163cf7b9a74e6094141734154040ab);
+        
+    
+        var popup_8297e518a55c43be81f2dd3b30663998 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb0ac8fa65b140a6b804829c67024a8c = $(`<div id="html_eb0ac8fa65b140a6b804829c67024a8c" style="width: 100.0%; height: 100.0%;">Satkosia Gorge, Odisha, 98196.72 (ha)</div>`)[0];
+            popup_8297e518a55c43be81f2dd3b30663998.setContent(html_eb0ac8fa65b140a6b804829c67024a8c);
+        
+
+        marker_8c3d80f4d4734159a18b4dab3504809b.bindPopup(popup_8297e518a55c43be81f2dd3b30663998)
+        ;
+
+        
+    
+    
+            var marker_abe83a5e609b4874858110295328ff60 = L.marker(
+                [26.9690094966764, 79.2505784960403],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_53f5e5e6a80f4b31ac649a74708afb6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_abe83a5e609b4874858110295328ff60.setIcon(icon_53f5e5e6a80f4b31ac649a74708afb6b);
+        
+    
+        var popup_c3af2a5b0f9a4480a1a38430632f3dd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bbd63ff7a664680b0d61565aa8735a0 = $(`<div id="html_1bbd63ff7a664680b0d61565aa8735a0" style="width: 100.0%; height: 100.0%;">Sarsai Nawar Jheel, UP, 161.27 (ha)</div>`)[0];
+            popup_c3af2a5b0f9a4480a1a38430632f3dd8.setContent(html_1bbd63ff7a664680b0d61565aa8735a0);
+        
+
+        marker_abe83a5e609b4874858110295328ff60.bindPopup(popup_c3af2a5b0f9a4480a1a38430632f3dd8)
+        ;
+
+        
+    
+    
+            var marker_a8de2a02b5744802a02b1089c31c998f = L.marker(
+                [27.0157627332088, 79.1767038968088],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_62c2b94b39554415892828a75b2cb5ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a8de2a02b5744802a02b1089c31c998f.setIcon(icon_62c2b94b39554415892828a75b2cb5ca);
+        
+    
+        var popup_bb99105cf9e04eea9cdf5047c1c39985 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_621c59794f254389afea2376f7317eca = $(`<div id="html_621c59794f254389afea2376f7317eca" style="width: 100.0%; height: 100.0%;">Saman Bird Sanctuary, UP, 526.3 (ha)</div>`)[0];
+            popup_bb99105cf9e04eea9cdf5047c1c39985.setContent(html_621c59794f254389afea2376f7317eca);
+        
+
+        marker_a8de2a02b5744802a02b1089c31c998f.bindPopup(popup_bb99105cf9e04eea9cdf5047c1c39985)
+        ;
+
+        
+    
+    
+            var marker_a6ace482b0e246d0864400fa8ed98b3d = L.marker(
+                [32.0928606712976, 75.3899834421351],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_5d56199fc93f41fca617386dfe1add70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a6ace482b0e246d0864400fa8ed98b3d.setIcon(icon_5d56199fc93f41fca617386dfe1add70);
+        
+    
+        var popup_f98acae7ca9c4ad7a1c889cfba931179 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49612ba63230412b835957428d0139db = $(`<div id="html_49612ba63230412b835957428d0139db" style="width: 100.0%; height: 100.0%;">Keshopur-Miani Community Reserve, Punjab, 343.9 (ha)</div>`)[0];
+            popup_f98acae7ca9c4ad7a1c889cfba931179.setContent(html_49612ba63230412b835957428d0139db);
+        
+
+        marker_a6ace482b0e246d0864400fa8ed98b3d.bindPopup(popup_f98acae7ca9c4ad7a1c889cfba931179)
+        ;
+
+        
+    
+    
+            var marker_da7a7d7a407d4a25aa72d93749d8c68d = L.marker(
+                [32.75, 75.2],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_fc5cd6e68ec14f54af8d01fd97d746bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_da7a7d7a407d4a25aa72d93749d8c68d.setIcon(icon_fc5cd6e68ec14f54af8d01fd97d746bd);
+        
+    
+        var popup_7a1778099e354c04bfbbbebfd0656715 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fed01ed733647f0b47f61a6b795d72c = $(`<div id="html_9fed01ed733647f0b47f61a6b795d72c" style="width: 100.0%; height: 100.0%;">Surinsar-Mansar Lakes, JK, 350.0 (ha)</div>`)[0];
+            popup_7a1778099e354c04bfbbbebfd0656715.setContent(html_9fed01ed733647f0b47f61a6b795d72c);
+        
+
+        marker_da7a7d7a407d4a25aa72d93749d8c68d.bindPopup(popup_7a1778099e354c04bfbbbebfd0656715)
+        ;
+
+        
+    
+    
+            var marker_bb14fc60fca94e44b96b44d327317a05 = L.marker(
+                [19.9759398648529, 76.5084129710679],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_1aa8611db8c243aa8dbc2adc38dd052c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bb14fc60fca94e44b96b44d327317a05.setIcon(icon_1aa8611db8c243aa8dbc2adc38dd052c);
+        
+    
+        var popup_6593cdb4152745f5860de95b7499d51f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7130608be004448cb92b08fa8b950269 = $(`<div id="html_7130608be004448cb92b08fa8b950269" style="width: 100.0%; height: 100.0%;"> Lonar Lake , MH, 427.0 (ha)</div>`)[0];
+            popup_6593cdb4152745f5860de95b7499d51f.setContent(html_7130608be004448cb92b08fa8b950269);
+        
+
+        marker_bb14fc60fca94e44b96b44d327317a05.bindPopup(popup_6593cdb4152745f5860de95b7499d51f)
+        ;
+
+        
+    
+    
+            var marker_87de334e850040a1bf40e439f3068c81 = L.marker(
+                [27.2166666666667, 77.5333333333333],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_22dd32bd0983428e990f68985d272258 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_87de334e850040a1bf40e439f3068c81.setIcon(icon_22dd32bd0983428e990f68985d272258);
+        
+    
+        var popup_bef4d7ec185944dbaf16bc965b3eb90a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e31945e9c77c4100bc8ac5e2b261e319 = $(`<div id="html_e31945e9c77c4100bc8ac5e2b261e319" style="width: 100.0%; height: 100.0%;">Keoladeo National Park, Rajasthan, 2873.0 (ha)</div>`)[0];
+            popup_bef4d7ec185944dbaf16bc965b3eb90a.setContent(html_e31945e9c77c4100bc8ac5e2b261e319);
+        
+
+        marker_87de334e850040a1bf40e439f3068c81.bindPopup(popup_bef4d7ec185944dbaf16bc965b3eb90a)
+        ;
+
+        
+    
+    
+            var marker_695c29b907e64df7a78a4f470a5b85a5 = L.marker(
+                [32.4833333333, 77.6],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_a618ac5d38634281ba79438f2bd7cf52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_695c29b907e64df7a78a4f470a5b85a5.setIcon(icon_a618ac5d38634281ba79438f2bd7cf52);
+        
+    
+        var popup_966ee4084b134960a2c456717173cf39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fecd646afbba472596e8f0d1b4522122 = $(`<div id="html_fecd646afbba472596e8f0d1b4522122" style="width: 100.0%; height: 100.0%;">Chandertal Wetland, HP, 49.0 (ha)</div>`)[0];
+            popup_966ee4084b134960a2c456717173cf39.setContent(html_fecd646afbba472596e8f0d1b4522122);
+        
+
+        marker_695c29b907e64df7a78a4f470a5b85a5.bindPopup(popup_966ee4084b134960a2c456717173cf39)
+        ;
+
+        
+    
+    
+            var marker_a2ec064f05004069ace2fece1ead440b = L.marker(
+                [31.6166666667, 77.45],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_e1fbf134eac2460bad404df85712b8f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a2ec064f05004069ace2fece1ead440b.setIcon(icon_e1fbf134eac2460bad404df85712b8f4);
+        
+    
+        var popup_b39ad41185f34795aadecf7ad7972000 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79d1db03192a406dbffd22b66896f287 = $(`<div id="html_79d1db03192a406dbffd22b66896f287" style="width: 100.0%; height: 100.0%;">Renuka Wetland, HP, 20.0 (ha)</div>`)[0];
+            popup_b39ad41185f34795aadecf7ad7972000.setContent(html_79d1db03192a406dbffd22b66896f287);
+        
+
+        marker_a2ec064f05004069ace2fece1ead440b.bindPopup(popup_b39ad41185f34795aadecf7ad7972000)
+        ;
+
+        
+    
+    
+            var marker_29a34f86d7924257b36eaba7aeafafd9 = L.marker(
+                [34.0833333333, 74.7],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_11f31eb67f16446b99fc7ce2eb3d05a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_29a34f86d7924257b36eaba7aeafafd9.setIcon(icon_11f31eb67f16446b99fc7ce2eb3d05a0);
+        
+    
+        var popup_c555e3ca683540b7b2581e5632d065d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88bf84e6230b4660ab98da3bdd01d9ec = $(`<div id="html_88bf84e6230b4660ab98da3bdd01d9ec" style="width: 100.0%; height: 100.0%;">Hokera Wetland, JK, 1375.0 (ha)</div>`)[0];
+            popup_c555e3ca683540b7b2581e5632d065d1.setContent(html_88bf84e6230b4660ab98da3bdd01d9ec);
+        
+
+        marker_29a34f86d7924257b36eaba7aeafafd9.bindPopup(popup_c555e3ca683540b7b2581e5632d065d1)
+        ;
+
+        
+    
+    
+            var marker_7f8a8f9feab241c2bc11b17eb9887525 = L.marker(
+                [22.45, 88.45],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_e07b1e2c70a0457ca96092610bb1d919 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7f8a8f9feab241c2bc11b17eb9887525.setIcon(icon_e07b1e2c70a0457ca96092610bb1d919);
+        
+    
+        var popup_1aa1b3817902470ca9950a396caa967e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efd7812054254a41b47662b3b13a1d54 = $(`<div id="html_efd7812054254a41b47662b3b13a1d54" style="width: 100.0%; height: 100.0%;">East Calcutta Wetlands, WB, 12500.0 (ha)</div>`)[0];
+            popup_1aa1b3817902470ca9950a396caa967e.setContent(html_efd7812054254a41b47662b3b13a1d54);
+        
+
+        marker_7f8a8f9feab241c2bc11b17eb9887525.bindPopup(popup_1aa1b3817902470ca9950a396caa967e)
+        ;
+
+        
+    
+    
+            var marker_6f7740014bc74d33af97ea4165f7a3b4 = L.marker(
+                [22.6995105515976, 75.8122811953984],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_bd4a486c9d71403191d307e3ca0b81e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6f7740014bc74d33af97ea4165f7a3b4.setIcon(icon_bd4a486c9d71403191d307e3ca0b81e0);
+        
+    
+        var popup_d9e6d799d71e4475832ffb6b115ce096 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bf28df3945e4420ab50ab022e4ec312 = $(`<div id="html_9bf28df3945e4420ab50ab022e4ec312" style="width: 100.0%; height: 100.0%;">Sirpur Wetland, MP, 161.0 (ha)</div>`)[0];
+            popup_d9e6d799d71e4475832ffb6b115ce096.setContent(html_9bf28df3945e4420ab50ab022e4ec312);
+        
+
+        marker_6f7740014bc74d33af97ea4165f7a3b4.bindPopup(popup_d9e6d799d71e4475832ffb6b115ce096)
+        ;
+
+        
+    
+    
+            var marker_b2cc8d58972d4020bad56426c197ff81 = L.marker(
+                [22.1971003880099, 92.9021981055417],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_9db081f5e722464893be130bcaa06c7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b2cc8d58972d4020bad56426c197ff81.setIcon(icon_9db081f5e722464893be130bcaa06c7b);
+        
+    
+        var popup_9636c1862ea8443b8c3737b7bd31ba58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb5d4b5b5076435492c5a66bfbf7f3c0 = $(`<div id="html_bb5d4b5b5076435492c5a66bfbf7f3c0" style="width: 100.0%; height: 100.0%;">Pala Wetland, Mizoram, 1850.0 (ha)</div>`)[0];
+            popup_9636c1862ea8443b8c3737b7bd31ba58.setContent(html_bb5d4b5b5076435492c5a66bfbf7f3c0);
+        
+
+        marker_b2cc8d58972d4020bad56426c197ff81.bindPopup(popup_9636c1862ea8443b8c3737b7bd31ba58)
+        ;
+
+        
+    
+    
+            var marker_37bab849b0e34d78901412beb3b9dbd5 = L.marker(
+                [12.4078456493841, 76.6821440298314],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_3a03c1b9dfc34b09bec7693129624029 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_37bab849b0e34d78901412beb3b9dbd5.setIcon(icon_3a03c1b9dfc34b09bec7693129624029);
+        
+    
+        var popup_138db4f5524e40b983b9ec81bbd619e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b36baec4ec334ebba1a204652b5bc956 = $(`<div id="html_b36baec4ec334ebba1a204652b5bc956" style="width: 100.0%; height: 100.0%;">Ranganathittu Bird Sanctuary, Karnataka, 517.7 (ha)</div>`)[0];
+            popup_138db4f5524e40b983b9ec81bbd619e2.setContent(html_b36baec4ec334ebba1a204652b5bc956);
+        
+
+        marker_37bab849b0e34d78901412beb3b9dbd5.bindPopup(popup_138db4f5524e40b983b9ec81bbd619e2)
+        ;
+
+        
+    
+    
+            var marker_5f150009f35d4135b9f0f814bef0c17f = L.marker(
+                [20.0217327015131, 74.1067712251513],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_522d41b8109b45cf99dd9abf6cfde4c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5f150009f35d4135b9f0f814bef0c17f.setIcon(icon_522d41b8109b45cf99dd9abf6cfde4c9);
+        
+    
+        var popup_5f9601c8beaf4657a2ad1ca0c5d1fa4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76d9284a8db24165bdaea48e038c6ab7 = $(`<div id="html_76d9284a8db24165bdaea48e038c6ab7" style="width: 100.0%; height: 100.0%;">Nandur Madhameshwar, MH, 1437.0 (ha)</div>`)[0];
+            popup_5f9601c8beaf4657a2ad1ca0c5d1fa4e.setContent(html_76d9284a8db24165bdaea48e038c6ab7);
+        
+
+        marker_5f150009f35d4135b9f0f814bef0c17f.bindPopup(popup_5f9601c8beaf4657a2ad1ca0c5d1fa4e)
+        ;
+
+        
+    
+    
+            var marker_6690f6c08aa5476fb286b11988a763db = L.marker(
+                [22.1721144823131, 73.4867854260735],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_7b45afd4e6064b5cb9a031dbbe5194e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6690f6c08aa5476fb286b11988a763db.setIcon(icon_7b45afd4e6064b5cb9a031dbbe5194e7);
+        
+    
+        var popup_d8f7dc05e46e4a5d9a2c34405598dee5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9df75066aab47338e71d26a61a64b05 = $(`<div id="html_c9df75066aab47338e71d26a61a64b05" style="width: 100.0%; height: 100.0%;">Wadhvana Wetland, Gujarat, 630.0 (ha)</div>`)[0];
+            popup_d8f7dc05e46e4a5d9a2c34405598dee5.setContent(html_c9df75066aab47338e71d26a61a64b05);
+        
+
+        marker_6690f6c08aa5476fb286b11988a763db.bindPopup(popup_d8f7dc05e46e4a5d9a2c34405598dee5)
+        ;
+
+        
+    
+    
+            var marker_d4b3ddab2e8a4a45bd00a2e8c3baf2c5 = L.marker(
+                [27.2518752511827, 77.8402663842209],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_d2b5bc7e5f56492fb6b08d57bc2560b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d4b3ddab2e8a4a45bd00a2e8c3baf2c5.setIcon(icon_d2b5bc7e5f56492fb6b08d57bc2560b6);
+        
+    
+        var popup_a24f2caa47d54611b9a8bbfe07f1f83b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c352669c0cac4e21a191bec30e3c33f6 = $(`<div id="html_c352669c0cac4e21a191bec30e3c33f6" style="width: 100.0%; height: 100.0%;">Sur Sarovar , UP, 431.0 (ha)</div>`)[0];
+            popup_a24f2caa47d54611b9a8bbfe07f1f83b.setContent(html_c352669c0cac4e21a191bec30e3c33f6);
+        
+
+        marker_d4b3ddab2e8a4a45bd00a2e8c3baf2c5.bindPopup(popup_a24f2caa47d54611b9a8bbfe07f1f83b)
+        ;
+
+        
+    
+    
+            var marker_d4da39c752c448d987b1a8433e55b4e0 = L.marker(
+                [25.6181499134252, 86.1394680424323],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_ff68e1162756448d8832acc79f57682f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d4da39c752c448d987b1a8433e55b4e0.setIcon(icon_ff68e1162756448d8832acc79f57682f);
+        
+    
+        var popup_067a58402adc48e49f4fe24f4baae3f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_946639313b614cd896e4d10db299aa02 = $(`<div id="html_946639313b614cd896e4d10db299aa02" style="width: 100.0%; height: 100.0%;">Kabartal Wetland, Bihar, 2620.0 (ha)</div>`)[0];
+            popup_067a58402adc48e49f4fe24f4baae3f9.setContent(html_946639313b614cd896e4d10db299aa02);
+        
+
+        marker_d4da39c752c448d987b1a8433e55b4e0.bindPopup(popup_067a58402adc48e49f4fe24f4baae3f9)
+        ;
+
+        
+    
+    
+            var marker_f86cb8fc36fa485ba6aa53d945f3b686 = L.marker(
+                [30.4337961448991, 77.6828241319609],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_bba351acde62469f9ee7cdcfbfdb147f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f86cb8fc36fa485ba6aa53d945f3b686.setIcon(icon_bba351acde62469f9ee7cdcfbfdb147f);
+        
+    
+        var popup_a9fdcc40dec144008a9fd9d7556c9433 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2006061925fe4e6c89a176d691c5dc49 = $(`<div id="html_2006061925fe4e6c89a176d691c5dc49" style="width: 100.0%; height: 100.0%;">Asan Conservation Reserve , Uttarakhand, 444.4 (ha)</div>`)[0];
+            popup_a9fdcc40dec144008a9fd9d7556c9433.setContent(html_2006061925fe4e6c89a176d691c5dc49);
+        
+
+        marker_f86cb8fc36fa485ba6aa53d945f3b686.bindPopup(popup_a9fdcc40dec144008a9fd9d7556c9433)
+        ;
+
+        
+    
+    
+            var marker_b2bb952626754f98ad2800547b16377e = L.marker(
+                [26.1333333333333, 91.65],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_c012b595c5174b72b7f98149dd924025 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b2bb952626754f98ad2800547b16377e.setIcon(icon_c012b595c5174b72b7f98149dd924025);
+        
+    
+        var popup_3b68dc7e06d64b74ab60b85997e273c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0652d2325d9047fe827fed04b0aef45b = $(`<div id="html_0652d2325d9047fe827fed04b0aef45b" style="width: 100.0%; height: 100.0%;">Deepor Beel, Assam, 4000.0 (ha)</div>`)[0];
+            popup_3b68dc7e06d64b74ab60b85997e273c1.setContent(html_0652d2325d9047fe827fed04b0aef45b);
+        
+
+        marker_b2bb952626754f98ad2800547b16377e.bindPopup(popup_3b68dc7e06d64b74ab60b85997e273c1)
+        ;
+
+        
+    
+    
+            var marker_74b27f4c11ab4a80b561571275ca9bb4 = L.marker(
+                [31.4166666666667, 75.3666666666667],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_df850a98a57c4c4ba1cf8dd9c91ea045 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_74b27f4c11ab4a80b561571275ca9bb4.setIcon(icon_df850a98a57c4c4ba1cf8dd9c91ea045);
+        
+    
+        var popup_aaa1afdbd19a46488e98f82b2edfeb39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b486792a2e644958a663a467da656230 = $(`<div id="html_b486792a2e644958a663a467da656230" style="width: 100.0%; height: 100.0%;">Kanjli, Punjab, 183.0 (ha)</div>`)[0];
+            popup_aaa1afdbd19a46488e98f82b2edfeb39.setContent(html_b486792a2e644958a663a467da656230);
+        
+
+        marker_74b27f4c11ab4a80b561571275ca9bb4.bindPopup(popup_aaa1afdbd19a46488e98f82b2edfeb39)
+        ;
+
+        
+    
+    
+            var marker_54546129cde8445bb4d835866a6ab068 = L.marker(
+                [10.3166666666667, 79.6333333333333],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_056df66021204e248181ff35eeb5fd83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_54546129cde8445bb4d835866a6ab068.setIcon(icon_056df66021204e248181ff35eeb5fd83);
+        
+    
+        var popup_05498abaf9be42d3b51402e683680a94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c5989de045d44ed93c12d76ac1c898e = $(`<div id="html_3c5989de045d44ed93c12d76ac1c898e" style="width: 100.0%; height: 100.0%;">Point Calimere Wildlife and Bird Sanctuary, TN, 38500.0 (ha)</div>`)[0];
+            popup_05498abaf9be42d3b51402e683680a94.setContent(html_3c5989de045d44ed93c12d76ac1c898e);
+        
+
+        marker_54546129cde8445bb4d835866a6ab068.bindPopup(popup_05498abaf9be42d3b51402e683680a94)
+        ;
+
+        
+    
+    
+            var marker_9d728a19d14147f2b3bce0990df3178c = L.marker(
+                [28.4652659466123, 76.892162598666],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_7b4531cfe21045f4a26835e5f1ab1dd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9d728a19d14147f2b3bce0990df3178c.setIcon(icon_7b4531cfe21045f4a26835e5f1ab1dd4);
+        
+    
+        var popup_ac38739294b74f2fb66a0eb5c712b478 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b33e18c848e843ab973bdad5613966a8 = $(`<div id="html_b33e18c848e843ab973bdad5613966a8" style="width: 100.0%; height: 100.0%;">Sultanpur National Park, Haryana, 142.52 (ha)</div>`)[0];
+            popup_ac38739294b74f2fb66a0eb5c712b478.setContent(html_b33e18c848e843ab973bdad5613966a8);
+        
+
+        marker_9d728a19d14147f2b3bce0990df3178c.bindPopup(popup_ac38739294b74f2fb66a0eb5c712b478)
+        ;
+
+        
+    
+    
+            var marker_6c87e0cb0ef9419a935c0fdc95ccb8c1 = L.marker(
+                [29.4166040655218, 78.0164376480557],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_4d401084036d45d7bb44b7738052a22e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6c87e0cb0ef9419a935c0fdc95ccb8c1.setIcon(icon_4d401084036d45d7bb44b7738052a22e);
+        
+    
+        var popup_07c51c483cd54a44a2e75b573ea6f04a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f97cedd21ce647d88ce553e80f847c64 = $(`<div id="html_f97cedd21ce647d88ce553e80f847c64" style="width: 100.0%; height: 100.0%;">Haiderpur Wetland, UP, 6908.0 (ha)</div>`)[0];
+            popup_07c51c483cd54a44a2e75b573ea6f04a.setContent(html_f97cedd21ce647d88ce553e80f847c64);
+        
+
+        marker_6c87e0cb0ef9419a935c0fdc95ccb8c1.bindPopup(popup_07c51c483cd54a44a2e75b573ea6f04a)
+        ;
+
+        
+    
+    
+            var marker_fd54e0da92374c979920427ae69a0195 = L.marker(
+                [26.9102240150825, 83.1297829171324],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_14c260830a1641a88326b4433ca805b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fd54e0da92374c979920427ae69a0195.setIcon(icon_14c260830a1641a88326b4433ca805b5);
+        
+    
+        var popup_879951efa7334d248298bfabdb3c307b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba0896f0ad5c4987bc11646cb6ff233c = $(`<div id="html_ba0896f0ad5c4987bc11646cb6ff233c" style="width: 100.0%; height: 100.0%;">Bakhira Wildlife Sanctuary, UP, 2894.0 (ha)</div>`)[0];
+            popup_879951efa7334d248298bfabdb3c307b.setContent(html_ba0896f0ad5c4987bc11646cb6ff233c);
+        
+
+        marker_fd54e0da92374c979920427ae69a0195.bindPopup(popup_879951efa7334d248298bfabdb3c307b)
+        ;
+
+        
+    
+    
+            var marker_13970529651c45ceb5d998f1ec84be42 = L.marker(
+                [25.4342663304904, 77.7069971164404],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_667230c097244a38978e257a932ae13d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_13970529651c45ceb5d998f1ec84be42.setIcon(icon_667230c097244a38978e257a932ae13d);
+        
+    
+        var popup_d5ee1d1e645f49d7af0acdb9aa617cf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f5404f06d564e5fa813fecb517e40fe = $(`<div id="html_0f5404f06d564e5fa813fecb517e40fe" style="width: 100.0%; height: 100.0%;">Sakhya Sagar, MP, 248.0 (ha)</div>`)[0];
+            popup_d5ee1d1e645f49d7af0acdb9aa617cf0.setContent(html_0f5404f06d564e5fa813fecb517e40fe);
+        
+
+        marker_13970529651c45ceb5d998f1ec84be42.bindPopup(popup_d5ee1d1e645f49d7af0acdb9aa617cf0)
+        ;
+
+        
+    
+    
+            var marker_682ea3d48b6c4105a2425b6b939f27d5 = L.marker(
+                [12.5464912899531, 79.8560188977251],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_a2bcfd0970494261950186d4b0e838a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_682ea3d48b6c4105a2425b6b939f27d5.setIcon(icon_a2bcfd0970494261950186d4b0e838a0);
+        
+    
+        var popup_80f59cb20b7941359d612cf5dff18e93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f468d1006ea54b178b10f1c529d5abc3 = $(`<div id="html_f468d1006ea54b178b10f1c529d5abc3" style="width: 100.0%; height: 100.0%;">Vedanthangal Bird Sanctuary , TN, 40.348 (ha)</div>`)[0];
+            popup_80f59cb20b7941359d612cf5dff18e93.setContent(html_f468d1006ea54b178b10f1c529d5abc3);
+        
+
+        marker_682ea3d48b6c4105a2425b6b939f27d5.bindPopup(popup_80f59cb20b7941359d612cf5dff18e93)
+        ;
+
+        
+    
+    
+            var marker_1f81aee4613c4463bf1decec9b78ffa5 = L.marker(
+                [11.2518550745562, 77.6519079026874],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_721e3ec3f3bc4d8eb52db41777237c19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1f81aee4613c4463bf1decec9b78ffa5.setIcon(icon_721e3ec3f3bc4d8eb52db41777237c19);
+        
+    
+        var popup_628e4550e99e481fbbbe768095ed11c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4420c73aaf8546dba1e2c03e4ea1e80f = $(`<div id="html_4420c73aaf8546dba1e2c03e4ea1e80f" style="width: 100.0%; height: 100.0%;">Vellode Bird Sanctuary, TN, 77.185 (ha)</div>`)[0];
+            popup_628e4550e99e481fbbbe768095ed11c4.setContent(html_4420c73aaf8546dba1e2c03e4ea1e80f);
+        
+
+        marker_1f81aee4613c4463bf1decec9b78ffa5.bindPopup(popup_628e4550e99e481fbbbe768095ed11c4)
+        ;
+
+        
+    
+    
+            var marker_f5b6621ec5524029857d021f442435ad = L.marker(
+                [15.2368726496096, 74.107499427506],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_bb88afe58592482f8ebd4d5147984c5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f5b6621ec5524029857d021f442435ad.setIcon(icon_bb88afe58592482f8ebd4d5147984c5a);
+        
+    
+        var popup_5d2c1400d09245e2a02d585d1a7e18d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c0a731ad0b94ec09411ab81a2659dd1 = $(`<div id="html_9c0a731ad0b94ec09411ab81a2659dd1" style="width: 100.0%; height: 100.0%;">Nanda Lake, Goa, 42.01 (ha)</div>`)[0];
+            popup_5d2c1400d09245e2a02d585d1a7e18d2.setContent(html_9c0a731ad0b94ec09411ab81a2659dd1);
+        
+
+        marker_f5b6621ec5524029857d021f442435ad.bindPopup(popup_5d2c1400d09245e2a02d585d1a7e18d2)
+        ;
+
+        
+    
+    
+            var marker_f12ab70a8aa745d8ba304f5f5e76b910 = L.marker(
+                [12.9278457632948, 80.2204844569142],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_ca022e40d8a247fcaf033b6f9a3026da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f12ab70a8aa745d8ba304f5f5e76b910.setIcon(icon_ca022e40d8a247fcaf033b6f9a3026da);
+        
+    
+        var popup_b93c157623d048a0b49b3d6697f7c39e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_799f2419ce9e4da6be59b7d5ea56f77d = $(`<div id="html_799f2419ce9e4da6be59b7d5ea56f77d" style="width: 100.0%; height: 100.0%;">Pallikaranai Marsh Reserve Forest, TN, 1247.537 (ha)</div>`)[0];
+            popup_b93c157623d048a0b49b3d6697f7c39e.setContent(html_799f2419ce9e4da6be59b7d5ea56f77d);
+        
+
+        marker_f12ab70a8aa745d8ba304f5f5e76b910.bindPopup(popup_b93c157623d048a0b49b3d6697f7c39e)
+        ;
+
+        
+    
+    
+            var marker_63998c0cb9d34918b6cdcb9667edd7df = L.marker(
+                [12.598929845085, 79.8424197215527],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_29b65017c3e840df9cd8f57ba664696f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_63998c0cb9d34918b6cdcb9667edd7df.setIcon(icon_29b65017c3e840df9cd8f57ba664696f);
+        
+    
+        var popup_66bda0020bd14880b915bc8e8e774519 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec04415b63c6494bb541d09660bf8a4f = $(`<div id="html_ec04415b63c6494bb541d09660bf8a4f" style="width: 100.0%; height: 100.0%;">Karikili Bird Sanctuary , TN, 58.442 (ha)</div>`)[0];
+            popup_66bda0020bd14880b915bc8e8e774519.setContent(html_ec04415b63c6494bb541d09660bf8a4f);
+        
+
+        marker_63998c0cb9d34918b6cdcb9667edd7df.bindPopup(popup_66bda0020bd14880b915bc8e8e774519)
+        ;
+
+        
+    
+    
+            var marker_7c2e9560a9fc423da9abf0423958a8fa = L.marker(
+                [10.4505662155922, 79.5547078238986],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_aa23c6d4a8514cb098058c0de2f54e68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7c2e9560a9fc423da9abf0423958a8fa.setIcon(icon_aa23c6d4a8514cb098058c0de2f54e68);
+        
+    
+        var popup_7c947ecd4cc24183ae15dbfbff0dc78f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e91b61398b843cca9e7ffda9789501d = $(`<div id="html_1e91b61398b843cca9e7ffda9789501d" style="width: 100.0%; height: 100.0%;">Udhayamarthandapuram Bird Sanctuary, TN, 43.767 (ha)</div>`)[0];
+            popup_7c947ecd4cc24183ae15dbfbff0dc78f.setContent(html_1e91b61398b843cca9e7ffda9789501d);
+        
+
+        marker_7c2e9560a9fc423da9abf0423958a8fa.bindPopup(popup_7c947ecd4cc24183ae15dbfbff0dc78f)
+        ;
+
+        
+    
+    
+            var marker_ef4150a2976641d6beee6219b55d137c = L.marker(
+                [8.18177773036239, 77.3762310144781],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_f5c3147c4a7545e5bef9ac8141b1289c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ef4150a2976641d6beee6219b55d137c.setIcon(icon_f5c3147c4a7545e5bef9ac8141b1289c);
+        
+    
+        var popup_857fb2c5d9d64a69bba39978cf33d643 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb3de8dd4fb04b30a15fe7e7f633e021 = $(`<div id="html_fb3de8dd4fb04b30a15fe7e7f633e021" style="width: 100.0%; height: 100.0%;">Vembannur Wetland Complex, TN, 19.746 (ha)</div>`)[0];
+            popup_857fb2c5d9d64a69bba39978cf33d643.setContent(html_fb3de8dd4fb04b30a15fe7e7f633e021);
+        
+
+        marker_ef4150a2976641d6beee6219b55d137c.bindPopup(popup_857fb2c5d9d64a69bba39978cf33d643)
+        ;
+
+        
+    
+    
+            var marker_8786204499c84492a92adb6b5b5b57ca = L.marker(
+                [19.3531, 85.0013],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_ed7c06d6ccf34d58acf3f64b251532d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8786204499c84492a92adb6b5b5b57ca.setIcon(icon_ed7c06d6ccf34d58acf3f64b251532d7);
+        
+    
+        var popup_c48b42e1f4f94478bc540c55ee93c7f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58a07370db404ad59af7c0d404e0952e = $(`<div id="html_58a07370db404ad59af7c0d404e0952e" style="width: 100.0%; height: 100.0%;">Tampara Lake, Odisha, 300.0 (ha)</div>`)[0];
+            popup_c48b42e1f4f94478bc540c55ee93c7f5.setContent(html_58a07370db404ad59af7c0d404e0952e);
+        
+
+        marker_8786204499c84492a92adb6b5b5b57ca.bindPopup(popup_c48b42e1f4f94478bc540c55ee93c7f5)
+        ;
+
+        
+    
+    
+            var marker_9e52483a0cb2430dad04a5ed47eab9c4 = L.marker(
+                [21.53, 83.870495],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_96e9aef6de814a109f15e5edf3c0505e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9e52483a0cb2430dad04a5ed47eab9c4.setIcon(icon_96e9aef6de814a109f15e5edf3c0505e);
+        
+    
+        var popup_9abba29ab62b43a98c47ed87592a0014 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0a4792cdee04aab90ea348f91387252 = $(`<div id="html_c0a4792cdee04aab90ea348f91387252" style="width: 100.0%; height: 100.0%;">Hirakud Reservoir, Odisha, 65400.0 (ha)</div>`)[0];
+            popup_9abba29ab62b43a98c47ed87592a0014.setContent(html_c0a4792cdee04aab90ea348f91387252);
+        
+
+        marker_9e52483a0cb2430dad04a5ed47eab9c4.bindPopup(popup_9abba29ab62b43a98c47ed87592a0014)
+        ;
+
+        
+    
+    
+            var marker_056f05b241f240c9b6b631aa81fe67bc = L.marker(
+                [20.4587, 85.6036],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_a5c439183a9343d6b8643f6410221bd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_056f05b241f240c9b6b631aa81fe67bc.setIcon(icon_a5c439183a9343d6b8643f6410221bd8);
+        
+    
+        var popup_d6ea4e5aac6f46858246e72956e6b281 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7ddef13aba4428aa0c7c53f12bc814b = $(`<div id="html_a7ddef13aba4428aa0c7c53f12bc814b" style="width: 100.0%; height: 100.0%;">Ansupa Lake, Odisha, 231.0 (ha)</div>`)[0];
+            popup_d6ea4e5aac6f46858246e72956e6b281.setContent(html_a7ddef13aba4428aa0c7c53f12bc814b);
+        
+
+        marker_056f05b241f240c9b6b631aa81fe67bc.bindPopup(popup_d6ea4e5aac6f46858246e72956e6b281)
+        ;
+
+        
+    
+    
+            var marker_1cbd8415785e49a5a228f03c9706309b = L.marker(
+                [22.8161, 75.6956],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_478dcd15bfd04afaaee3256f2ef26d8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1cbd8415785e49a5a228f03c9706309b.setIcon(icon_478dcd15bfd04afaaee3256f2ef26d8c);
+        
+    
+        var popup_4c6e7a9d15944727afcdc86b863f25ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab750c1b0a1c446685da929e6f66ee2f = $(`<div id="html_ab750c1b0a1c446685da929e6f66ee2f" style="width: 100.0%; height: 100.0%;">Yashwant Sagar, MP, 822.9 (ha)</div>`)[0];
+            popup_4c6e7a9d15944727afcdc86b863f25ad.setContent(html_ab750c1b0a1c446685da929e6f66ee2f);
+        
+
+        marker_1cbd8415785e49a5a228f03c9706309b.bindPopup(popup_4c6e7a9d15944727afcdc86b863f25ad)
+        ;
+
+        
+    
+    
+            var marker_f5fd67cfb0444e31a80faf03bdebc02f = L.marker(
+                [9.323, 78.4874],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_0c29457814ee4748b64c4ae2379ef9c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f5fd67cfb0444e31a80faf03bdebc02f.setIcon(icon_0c29457814ee4748b64c4ae2379ef9c5);
+        
+    
+        var popup_7a94fa4154134fa08642bc22dc885732 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18afc745924a41a991f0c39905cd3c84 = $(`<div id="html_18afc745924a41a991f0c39905cd3c84" style="width: 100.0%; height: 100.0%;">Chitrangudi Bird Sanctuary, TN, 260.47 (ha)</div>`)[0];
+            popup_7a94fa4154134fa08642bc22dc885732.setContent(html_18afc745924a41a991f0c39905cd3c84);
+        
+
+        marker_f5fd67cfb0444e31a80faf03bdebc02f.bindPopup(popup_7a94fa4154134fa08642bc22dc885732)
+        ;
+
+        
+    
+    
+            var marker_a6176094c3d44998b256af955402ccba = L.marker(
+                [8.125, 77.4583],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_2c3808f61a38474baee65ff7a2e2a048 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a6176094c3d44998b256af955402ccba.setIcon(icon_2c3808f61a38474baee65ff7a2e2a048);
+        
+    
+        var popup_53686f56e7d64f22a41b9c1ef438034c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce6ceabd074848ef846734ece51c97cb = $(`<div id="html_ce6ceabd074848ef846734ece51c97cb" style="width: 100.0%; height: 100.0%;">Suchindram Theroor Wetland Complex, TN, 94.23 (ha)</div>`)[0];
+            popup_53686f56e7d64f22a41b9c1ef438034c.setContent(html_ce6ceabd074848ef846734ece51c97cb);
+        
+
+        marker_a6176094c3d44998b256af955402ccba.bindPopup(popup_53686f56e7d64f22a41b9c1ef438034c)
+        ;
+
+        
+    
+    
+            var marker_18b59804735c42c88f2d0e7add613e7e = L.marker(
+                [10.6986, 79.3227],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_c2c751f4fd6a4c23ba487f1884081c56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_18b59804735c42c88f2d0e7add613e7e.setIcon(icon_c2c751f4fd6a4c23ba487f1884081c56);
+        
+    
+        var popup_7719f2236e634c6a84d944c626f9d92e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d762f3a0d1974959bfe22680d7dc3359 = $(`<div id="html_d762f3a0d1974959bfe22680d7dc3359" style="width: 100.0%; height: 100.0%;">Vaduvur Bird Sanctuary, TN, 112.64 (ha)</div>`)[0];
+            popup_7719f2236e634c6a84d944c626f9d92e.setContent(html_d762f3a0d1974959bfe22680d7dc3359);
+        
+
+        marker_18b59804735c42c88f2d0e7add613e7e.bindPopup(popup_7719f2236e634c6a84d944c626f9d92e)
+        ;
+
+        
+    
+    
+            var marker_d65f0e7487f4422e85d8bdb962b05e15 = L.marker(
+                [9.3536, 78.4813],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_212bcb4cabed41878f87d0d9d5fff7dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d65f0e7487f4422e85d8bdb962b05e15.setIcon(icon_212bcb4cabed41878f87d0d9d5fff7dd);
+        
+    
+        var popup_dee06515f6a044f58825c605e8a61023 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18c1ea92976847e4bdb48fe9bc161de7 = $(`<div id="html_18c1ea92976847e4bdb48fe9bc161de7" style="width: 100.0%; height: 100.0%;">Kanjirankulam Bird Sanctuary, TN, 96.89 (ha)</div>`)[0];
+            popup_dee06515f6a044f58825c605e8a61023.setContent(html_18c1ea92976847e4bdb48fe9bc161de7);
+        
+
+        marker_d65f0e7487f4422e85d8bdb962b05e15.bindPopup(popup_dee06515f6a044f58825c605e8a61023)
+        ;
+
+        
+    
+    
+            var marker_a10dcfa3f69d4f5486d30224df4c60c1 = L.marker(
+                [19.0374, 72.9815],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_dc3c296ff31148829e366b0ceaadc238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a10dcfa3f69d4f5486d30224df4c60c1.setIcon(icon_dc3c296ff31148829e366b0ceaadc238);
+        
+    
+        var popup_fd53b7fe6f004d97835b9f05abc93b47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6cc37e7109f4d8ea7fbff88ca8841c1 = $(`<div id="html_f6cc37e7109f4d8ea7fbff88ca8841c1" style="width: 100.0%; height: 100.0%;">Thane Creek, MH, 6521.08 (ha)</div>`)[0];
+            popup_fd53b7fe6f004d97835b9f05abc93b47.setContent(html_f6cc37e7109f4d8ea7fbff88ca8841c1);
+        
+
+        marker_a10dcfa3f69d4f5486d30224df4c60c1.bindPopup(popup_fd53b7fe6f004d97835b9f05abc93b47)
+        ;
+
+        
+    
+    
+            var marker_2f815be4b33d47b9b72ef343eda8d64e = L.marker(
+                [34.83, 74.85],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_16fe44546cbc4a8ea4a5359143a91649 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2f815be4b33d47b9b72ef343eda8d64e.setIcon(icon_16fe44546cbc4a8ea4a5359143a91649);
+        
+    
+        var popup_43a3aeec887c40a6a01f700e15261793 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_573a44e3cbbf4f8185b8520e65bcfcf6 = $(`<div id="html_573a44e3cbbf4f8185b8520e65bcfcf6" style="width: 100.0%; height: 100.0%;">Hygam Wetland Conservation Reserve, JK, 801.82 (ha)</div>`)[0];
+            popup_43a3aeec887c40a6a01f700e15261793.setContent(html_573a44e3cbbf4f8185b8520e65bcfcf6);
+        
+
+        marker_2f815be4b33d47b9b72ef343eda8d64e.bindPopup(popup_43a3aeec887c40a6a01f700e15261793)
+        ;
+
+        
+    
+    
+            var marker_cbe4f4a52a4441bf925cdb5f2fa231d8 = L.marker(
+                [34.15, 74.66],
+                {}
+            ).addTo(map_d332f392349e43948b599b5f01175490);
+        
+    
+            var icon_a6b1b202ead14fd598259ba5aeaac579 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cbe4f4a52a4441bf925cdb5f2fa231d8.setIcon(icon_a6b1b202ead14fd598259ba5aeaac579);
+        
+    
+        var popup_91d641df738242d192192bc2f8db32a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94aaa6ec41ad4a09be92d93b142d97c4 = $(`<div id="html_94aaa6ec41ad4a09be92d93b142d97c4" style="width: 100.0%; height: 100.0%;">Shallbugh Wetland Conservation Reserve, JK, 1675.0 (ha)</div>`)[0];
+            popup_91d641df738242d192192bc2f8db32a5.setContent(html_94aaa6ec41ad4a09be92d93b142d97c4);
+        
+
+        marker_cbe4f4a52a4441bf925cdb5f2fa231d8.bindPopup(popup_91d641df738242d192192bc2f8db32a5)
+        ;
+
+        
+    
+</script>
